@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background: radial-gradient(#fff, rgb(207, 204, 204));
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+}
+nav a .fa {
+  font-size: 30px;
+  color: #555;
+}
+
+.navbar img {
+  height: 100px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.text-col {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.text-col h1 {
+  padding: 10px 0;
+  font-size: 50px;
+  line-height: 20px 0;
+  color: #666;
+}
+.text-col p {
+  color: rgb(2, 70, 116);
+  font-size: 17px;
+  margin-top: 10px;
+}
+.img-col {
+  flex-basis: 38%;
+  min-width: 300px;
+}
+
+.img-col img {
+  background-position: center;
+  background-size: cover;
+
+  max-width: 100%;
+  padding: 50px 0;
+  height: 80vh;
+  position: relative;
+}
+.hero-btn {
+  display: inline-block;
+
+  background: #c92a2a;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 30px 0;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.hero-btn:hover {
+  background: #fe840e;
+}
+
+.categories {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-height: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4 {
+  flex-basis: 20%;
+  min-width: 200px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.col-4 img {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after {
+  content: "";
+  background: #fe840e;
+  width: 400px;
+  height: 3px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.col-4 h4 a {
+  color: #555;
+  text-decoration: none;
+  font-weight: normal;
+}
+.col-4 p {
+  font-size: 14px;
+  color: #333;
+}
+.ratings .fa {
+  color: rgb(139, 3, 3);
+}
